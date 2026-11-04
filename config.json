@@ -71,6 +71,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "fastapi-testing-auth",
+      "title": "API Testing and Authentication",
+      "description": "Write automated tests and protect a FastAPI books API with API-key authentication.",
+      "path": "assignments/fastapi-testing-auth",
+      "dueDate": "2026-11-11",
+      "attachments": [
+        {
+          "name": "Starter Code and Tests",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
