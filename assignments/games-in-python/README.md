@@ -1,19 +1,34 @@
 
-# 🎮 Desafio: Jogo da Forca
+# 📘 Assignment: Jogo da Forca
 
-Construa o clássico jogo de adivinhar palavras usando strings, loops e entrada de dados do usuário em Python.
+## 🎯 Objective
 
-## 🎯 O Que Você Vai Construir
+Construa um jogo da forca em Python para praticar manipulação de strings, seleção aleatória, loops, condicionais e entrada de dados do usuário.
 
-Crie um jogo da Forca onde os jogadores adivinham letras para revelar uma palavra oculta antes de esgotar as tentativas.
+## 📝 Tasks
 
-**Habilidades praticadas:** Manipulação de strings, loops, condicionais, seleção aleatória
+### 🛠️ Preparar a Palavra e o Estado do Jogo
 
-## ✅ Requisitos Obrigatórios
+#### Descrição
+Selecione uma palavra secreta da lista fornecida no código inicial e prepare as variáveis necessárias para acompanhar os palpites e os erros.
 
-Seu jogo deve:
-- Selecionar palavras aleatoriamente de uma lista predefinida
-- Aceitar palpites de letras e mostrar o progresso atual (formato _ _ _)
-- Rastrear tentativas incorretas restantes
-- Encerrar quando a palavra for adivinhada ou as tentativas esgotarem
-- Exibir mensagens de vitória/derrota
+#### Requisitos
+O programa concluído deve:
+
+- Selecionar aleatoriamente uma palavra da lista predefinida.
+- Manter o registro das letras já adivinhadas.
+- Definir e acompanhar o limite de palpites incorretos.
+
+### 🛠️ Conduzir uma Partida de Forca
+
+#### Descrição
+Implemente o loop principal para receber palpites, atualizar o progresso e encerrar a partida quando o jogador vencer ou ficar sem tentativas.
+
+#### Requisitos
+O programa concluído deve:
+
+- Exibir as letras descobertas e representar as letras ainda não descobertas por traços ou espaços em branco.
+- Solicitar palpites de letras e revelar todas as posições correspondentes quando o palpite estiver correto.
+- Contabilizar palpites incorretos e informar quantas tentativas restam.
+- Encerrar a partida quando a palavra for descoberta ou o limite de erros for atingido.
+- Exibir uma mensagem de vitória ou derrota e revelar a palavra secreta ao final.
